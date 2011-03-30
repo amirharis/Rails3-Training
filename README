@@ -1,0 +1,19 @@
+Global setup:
+ Download and install Git
+  git config --global user.name "Amir Haris Ahmad"
+  git config --global user.email amirharis@gmail.com
+        
+Next steps:
+  mkdir Rails3-Training
+  cd Rails3-Training
+  git init
+  touch README
+  git add README
+  git commit -m 'first commit'
+  git remote add origin git@github.com:amirharis/Rails3-Training.git
+  git push -u origin master
+      
+Existing Git Repo?
+  cd existing_git_repo
+  git remote add origin git@github.com:amirharis/Rails3-Training.git
+  git push -u origin master
